@@ -1,0 +1,67 @@
+/* #0065a3  1.png*/
+
+
+/* #6f8ba1 2.png */
+
+
+/* #152934 3.png main */
+
+
+/* #84d0e9 3.png text */
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(./font/Raleway-Light.woff2) format("woff2"), url(./font/Raleway-Light.woff) format("woff"), url(./font/Raleway-Light.ttf) format("truetype");
+}
+
+
+/* general classes */
+
+body {
+    font-family: "Raleway-Light" !important;
+}
+
+.btn {
+    background-color: #0065a3 !important;
+    color: white !important;
+}
+
+
+/* end general classes */
+
+
+/* header */
+
+.navbar {
+    height: 110px;
+}
+
+.nav-item a {
+    /* font-size: 1.2rem; */
+    /* font-weight: bold; */
+    color: #152934;
+}
+
+
+/* header */
+
+
+/* carousel  and section 1 content */
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.section1 {
+    padding-top: 110px;
+}
+
+.section1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
