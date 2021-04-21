@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAVASCRIPT-JQuery</title>
     <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- icon -->
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -16,7 +22,7 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top ">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <!-- logo -->
                 <a href="#" class="navbar-brand">
@@ -24,8 +30,8 @@
                 </a>
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <!-- Navbar links -->
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav">
@@ -59,7 +65,10 @@
         </nav>
     </header>
     <!-- end header -->
+
+    <!-- start section 1 -->
     <div class="section1">
+        <!-- TEXT IN CAROUSEL -->
         <div class="section1-content">
             <div class="top-section1">
                 <h1 class="h1">building inspiring spaces</h1>
@@ -67,6 +76,7 @@
             </div>
             <button class="btn" value="explore">explore recent work</button>
         </div>
+        <!-- carousel -->
         <div id="demo" class="carousel slide" data-ride="carousel">
 
             <!-- Indicators -->
@@ -79,7 +89,7 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/section1.jpg" alt="Los Angeles" width="1100" height="500">
+                    <img src="./img/100.webp.png" alt="Los Angeles" width="1100" height="500">
                 </div>
                 <div class="carousel-item">
                     <img src="./img/section3-1.jpg" alt="Chicago" width="1100" height="500">
@@ -98,6 +108,83 @@
             </a>
         </div>
     </div>
+    <!-- END SECTION1 -->
+    <!-- bottom-section -->
+    <div class="end-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="box col-sm-6 col-md-3">
+                    <div class="logo col-sm-6 col-md-12"></div>
+                </div>
+                <div class="box col-sm-6 col-md-3">
+                    <div class="contact-info">
+                        <h4>contact</h4>
+                        <div class="d-flex icon-text">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="text text-light">No.1 , Babolhavaej Dead-End, Sedigh Alley, Gholhak Intersection, Shariaty Street, Tehran, Iran</div>
+                        </div>
+                        <div class="d-flex icon-text">
+                            <i class="fa fa-phone-square"></i>
+                            <div class="text text-light">+98 21 26415041 & 26415042</div>
+                        </div>
+                        <div class="d-flex icon-text">
+                            <i class="fa fa-fax"></i>
+                            <div class="text text-light"> +98 21 26415043</div>
+                        </div>
+                        <div class="d-flex icon-text">
+                            <i class="fa fa-envelope"></i>
+                            <a class="text text-light">info@arman-insulators.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-sm-6 col-md-3">
+                    <h4>products</h4>
+                    <div class="products-footer ">
+                        <ul>
+                            <li>
+                                <a href="#" class="text-light">Suspension - Tension Composite Insulators for Overhead Transmission Lines
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="" class="text-light">Inter-phase Spacer Insulators for Overhead Transmission Lines</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="" class="text-light">Cross-Arm Insulators for Overhead Transmission Lines</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="" class="text-light">Post Insulators for High Voltage Substations</a>
+
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+
+                                <a href="" class="text-light">Medium Voltage Insulators for Electric Distribution Networks</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="" class="text-light">Electric Railway Insulators for Overhead Catenary Systems</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="copyright">
+            <div class="footer-text">ARMAN<span>&#169</span>2021 ALL RESERVED</div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

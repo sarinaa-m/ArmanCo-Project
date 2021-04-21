@@ -26,11 +26,23 @@ body {
     color: white !important;
 }
 
+.box {
+    height: auto !important;
+    text-transform: capitalize;
+    overflow: hidden;
+    margin: 4%;
+    color: white;
+}
+
 
 /* end general classes */
 
 
-/* header */
+/* start header */
+
+header {
+    height: 120px;
+}
 
 .navbar {
     height: 110px;
@@ -43,7 +55,7 @@ body {
 }
 
 
-/* header */
+/*end  header */
 
 
 /* carousel  and section 1 content */
@@ -52,9 +64,10 @@ body {
     width: 100%;
 }
 
-.section1 {
+
+/* .section1 {
     padding-top: 110px;
-}
+} */
 
 .section1-content {
     position: absolute;
@@ -63,5 +76,51 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     z-index: 1;
+    text-align: center;
+}
+
+
+/* end section1 and carousel */
+
+
+/* start end section */
+
+.end-section {
+    background-color: #152934;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    background: url(./img/MSA\ Logo\ Central\ FaEn.jpg) no-repeat center center;
+    background-size: contain;
+    height: 200px;
+}
+
+.end-section h4 {
+    color: #84d0e9;
+}
+
+.end-section .text {
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.end-section .icon-text {
+    padding: 6px;
+}
+
+
+/* start footer */
+
+.copyright {
+    width: 100%;
+    background-color: #111e25;
+    height: 60px;
+}
+
+.footer-text {
+    color: white;
+    line-height: 60px;
     text-align: center;
 }
