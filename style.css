@@ -61,6 +61,7 @@ body {
 
 .carousel-inner img {
     height: 400px;
+    width: 100%;
 }
 
 .section1 {
@@ -77,11 +78,133 @@ body {
     text-align: center;
 }
 
+.section1 .ribbon {
+    widows: 100%;
+    height: 100px;
+    background-color: #0065a3;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 1.2rem;
+}
+
 
 /* end section1 and carousel */
 
 
-/* start end section */
+/* start section2 */
+
+.section2 .top-part {
+    margin: 2%;
+    padding-top: 60px;
+}
+
+.section2 .sec2-left-box {
+    margin-bottom: 20px;
+}
+
+.section2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.section2 .discrption {
+    font-size: 20px;
+}
+
+.section2 .sec2-right-box img {
+    width: 100%;
+    height: 300px;
+}
+
+.section2 .img-box {
+    width: 100%;
+    height: 70px;
+    /* background-color: violet; */
+    margin: 10px;
+}
+
+.section2 .info-box {
+    margin: 4%;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+    background-color: #0065a3;
+    padding-left: 0 !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section2 .bottom-part .info-box-img {
+    background: url(./img/5-2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.section2 .bottom-part .text-box {
+    position: absolute;
+    top: 55%;
+    color: white;
+    font-size: 20px;
+}
+
+.section2 .sec2-header {
+    margin-top: 90px;
+}
+
+.section2 .bottom-part .line {
+    width: 140px;
+    height: 5px;
+    background-color: #6f8ba1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* START SECTION3 */
+
+.section3 {
+    background-color: #6f8ba1;
+    height: auto;
+}
+
+.section3 .intro-text {
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.section3 .img-elements {
+    width: 100%;
+}
+
+.section3 .check-box {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.section3 .fa-check-circle {
+    color: white;
+}
+
+.section3 .checkbox-elements {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.section3 .checkbox-elements .checkbox-text {
+    margin-top: -6px;
+    padding-left: 10px;
+}
+
+
+/* start footer */
 
 .end-section {
     background-color: #152934;
@@ -101,9 +224,6 @@ body {
 .end-section .icon-text {
     padding: 6px;
 }
-
-
-/* start footer */
 
 .copyright {
     width: 100%;
