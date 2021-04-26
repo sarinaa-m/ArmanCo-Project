@@ -169,7 +169,7 @@ body {
 }
 
 .section2 .info-box {
-    margin: 4%;
+    /* margin: 4%; */
     text-align: center;
 }
 
@@ -241,6 +241,11 @@ body {
     background-color: #152934;
     width: 100%;
     height: auto;
+}
+
+.footer img {
+    height: 180px;
+    width: 180px;
 }
 
 .footer h4 {
