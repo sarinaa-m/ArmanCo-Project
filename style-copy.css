@@ -1,0 +1,354 @@
+/* #0065a3  1.png*/
+
+
+/* #6f8ba1 2.png */
+
+
+/* #152934 3.png main */
+
+
+/* #84d0e9 3.png text */
+
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(./font/Raleway-Light.woff2) format("woff2"), url(./font/Raleway-Light.woff) format("woff"), url(./font/Raleway-Light.ttf) format("truetype");
+}
+
+
+/* GENERAL CLASSES */
+
+body {
+    font-family: "Raleway-Light" !important;
+}
+
+.btn {
+    background-color: #0065a3 !important;
+    color: white !important;
+}
+
+.box {
+    height: auto !important;
+    text-transform: capitalize;
+    overflow: hidden;
+    margin: 4%;
+    color: white;
+}
+
+.ribbon {
+    width: 100%;
+    height: auto;
+    background-color: #0065a3;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.line {
+    width: 140px;
+    height: 5px;
+    background-color: #6f8ba1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.check-box {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.checkbox-elements {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.checkbox-elements .checkbox-text {
+    margin-top: -6px;
+    padding-left: 10px;
+}
+
+.icon-text {
+    padding: 6px;
+}
+
+.text {
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.page-info .image-info {
+    background: linear-gradient(rgba(241, 237, 237, 0.534), rgba(241, 237, 237, 0.534)), url(./img/section3-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    transition: 2s;
+    /* display: block; */
+}
+
+.page-info .image-info:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/section3-1.jpg)no-repeat center center;
+    background-size: cover;
+    transform: scale(1.2);
+    color: white;
+}
+
+.page-info {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.page-info .change-page {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(238, 221, 221, 0.568);
+    z-index: 1;
+}
+
+
+/* END GENEAL CLASSES */
+
+
+/* START HEADER */
+
+.navbar .header-logo {
+    width: 150px;
+}
+
+.navbar {
+    height: auto;
+}
+
+.nav-link {
+    color: #111e25 !important;
+}
+
+.nav-link:hover {
+    color: #0065a3 !important;
+}
+
+
+/*END HEADER */
+
+
+/* CAROUSEL AND SECTION1 CONTENT */
+
+.carousel-inner img {
+    height: 400px;
+    width: 100%;
+}
+
+.section1 {
+    position: relative;
+}
+
+.section1 .carousel-img {
+    height: 500px;
+    width: 100%;
+}
+
+.section1 .first-img {
+    background: url(./img/100.webp.png) no-repeat center center;
+    background-size: cover;
+}
+
+.section1 .second-img {
+    background: url(./img/section1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section1 .third-img {
+    background: url(./img/section3-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.section1 .section1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+
+/* END SECTION1 AND CAROUSEL */
+
+
+/* START SECTION2 */
+
+.section2 .top-part {
+    margin: 2%;
+}
+
+.section2 .top-part img {
+    width: 150px;
+    height: 150px;
+}
+
+.section2 .description {
+    font-size: 20px;
+}
+
+.section2 .sec2-right-box img {
+    width: 100%;
+    height: 300px;
+}
+
+.section2 .info-box {
+    /* margin: 4%; */
+    text-align: center;
+}
+
+.section2 .card {
+    border: none !important;
+    font-size: 20px;
+    box-shadow: 5px 10px 8px 10px lightgray;
+}
+
+
+/* END SECTION 2 */
+
+
+/* START SECTION3 */
+
+.section3 {
+    background-color: #6f8ba1;
+    height: auto;
+}
+
+.section3 .img-elements {
+    width: 100%;
+}
+
+
+/* END SECTION 3 */
+
+
+/* START SECTION4 */
+
+.section4 .divided-line {
+    height: 5px;
+    border: 2px solid #156dac;
+    margin-top: 30px;
+}
+
+
+/* END SECTION4 */
+
+
+/* START SECTION5 */
+
+
+/* END SECTION5 */
+
+
+/* START SECTION6 */
+
+.section6 .contact-box {
+    background-color: #fcfcfc;
+    border: 2px solid lightgray;
+}
+
+.section6 .form-contact-us input {
+    background-color: #fcfcfc;
+}
+
+.section6 #inputMassage {
+    height: 100px;
+}
+
+
+/* END SECTION6 */
+
+
+/* START FOOTER */
+
+.footer {
+    background-color: #282763;
+    width: 100%;
+    height: auto;
+}
+
+.footer img {
+    height: 180px;
+    width: 180px;
+}
+
+.footer h4 {
+    color: #84d0e9;
+}
+
+.footer-text {
+    color: white;
+    line-height: 60px;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #111e25;
+    height: 60px;
+}
+
+
+/* .flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+} */
+
+.flip-card-inner {
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    /* position: absolute; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+} */
+
+.flip-card-back {
+    background-color: #297fb983;
+    color: white;
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* DESIGN PAGE */
+
+.design-section1 .div-box:nth-child(odd) {
+    background-color: #6f8ba1;
+    height: auto;
+    /* width: 100%; */
+}
+
+.design-section1 .div-box:nth-child(even) {
+    background-color: white;
+    height: auto;
+    /* width: 100%; */
+}
