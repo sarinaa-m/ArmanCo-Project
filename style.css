@@ -77,6 +77,41 @@ body {
     margin-top: -4px;
 }
 
+.page-info .image-info {
+    background: linear-gradient(rgba(241, 237, 237, 0.534), rgba(241, 237, 237, 0.534)), url(./img/section3-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    transition: 2s;
+    /* display: block; */
+}
+
+.page-info .image-info:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/section3-1.jpg)no-repeat center center;
+    background-size: cover;
+    transform: scale(1.2);
+    color: white;
+}
+
+.page-info {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.page-info .change-page {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(238, 221, 221, 0.568);
+    z-index: 1;
+}
+
 
 /* END GENEAL CLASSES */
 
@@ -238,7 +273,7 @@ body {
 /* START FOOTER */
 
 .footer {
-    background-color: #152934;
+    background-color: #282763;
     width: 100%;
     height: auto;
 }
@@ -262,4 +297,58 @@ body {
     width: 100%;
     background-color: #111e25;
     height: 60px;
+}
+
+
+/* .flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+} */
+
+.flip-card-inner {
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    /* position: absolute; */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+} */
+
+.flip-card-back {
+    background-color: #297fb983;
+    color: white;
+    transform: rotateY(180deg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* DESIGN PAGE */
+
+.design-section1 .div-box:nth-child(odd) {
+    background-color: #6f8ba1;
+    height: auto;
+    /* width: 100%; */
+}
+
+.design-section1 .div-box:nth-child(even) {
+    background-color: white;
+    height: auto;
+    /* width: 100%; */
 }
